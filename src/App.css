@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .app {
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh; /* Ensure the app takes full screen height */
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #4caf50;
+  }
+  
+ /* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+  }
+  
+  .app.dark-mode {
+     /* Handles the background to make the background of each element visible*/
+    background-color: transparent;
+  }
+  
+  

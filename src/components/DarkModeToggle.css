@@ -1,0 +1,31 @@
+.dark-mode-toggle {
+    margin: 10px auto;
+    display: block;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .dark-mode-toggle:hover {
+    background-color: #444;
+    color: #ddd;
+  }
+  
+  /* Light mode styling for Toggle */
+  .app:not(.dark-mode) .dark-mode-toggle {
+    background-color: #4caf50;
+    color: rgb(30, 11, 11);
+  }
+  
+  .app:not(.dark-mode) .dark-mode-toggle:hover {
+    background-color: #45a049;
+  }
+  
+    
+  
+  
