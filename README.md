@@ -9,10 +9,9 @@ A React-based Flashcard App that helps users learn and review topics efficiently
 
 2.Navigation:
    "Next" and "Previous" buttons to navigate through the flashcards.
-   Optional keyboard navigation using the ArrowRight and ArrowLeft keys.
 
 3.Progress Tracking:
-   Displays the current flashcard number (e.g., "Card 3 of 10").
+   Displays the current flashcard number.
    Includes a progress bar to visually represent completion status.
 
 4.Data for Flashcards:
@@ -25,8 +24,27 @@ A React-based Flashcard App that helps users learn and review topics efficiently
 6.Dark Mode:
    Switch between dark and light modes with a toggle button.
 
+7. API use:
+   Using OpenTDB API ,different categories of random questions can be generated.
+
 ## Demo Video
+https://github.com/user-attachments/assets/e2dfcf92-0fef-44b1-b746-5123eb56f56c
+
+
 
    
 ## API Reference
- This app fetches flashcard data from Open Trivia Database (OpenTDB).
+ This app fetches flashcard data from https://opentdb.com/api_config.php .
+
+ 
+## Features to add
+  1. Allow users to create and save their own flashcards by providing inputs for questions
+     and answers.
+  2. Enable users to mark specific flashcards as "Difficult" or "Mastered" and revisit
+     a dedicated review mode.
+  3. Question timing.
+  4. Giving Mutiple Correct Type Questions.
+
+
+## Reference Video used :
+    https://youtu.be/hEtZ040fsD8?si=onOoGRbvPsV63w2G
